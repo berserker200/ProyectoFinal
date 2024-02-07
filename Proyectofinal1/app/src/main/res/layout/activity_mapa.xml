@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/map"
+    tools:context=".Mapa"
+    android:name="com.google.android.gms.maps.SupportMapFragment">
+
+
+    <Button
+        android:id="@+id/btnlocali"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right|top"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/baseline_autorenew_24"
+        />
+    
+    
+</fragment>

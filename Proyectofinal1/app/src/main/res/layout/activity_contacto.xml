@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".contacto">
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewNombre"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewApellido"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono:"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewDireccion"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignBottom="@+id/textViewTelefono"
+        android:layout_marginBottom="-114dp" />
+
+    <ImageView
+        android:id="@+id/imageViewFoto"
+        android:layout_width="374dp"
+        android:layout_height="296dp"
+        android:layout_alignBottom="@+id/space"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="-317dp" />
+
+
+</RelativeLayout>
